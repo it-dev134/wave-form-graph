@@ -48,7 +48,9 @@ const ApexChart = () => {
     legend: {
       show: true
     },
-    
+    grid: {
+      show: false // Remove the grid
+    }
   });
 
   useEffect(() => {
