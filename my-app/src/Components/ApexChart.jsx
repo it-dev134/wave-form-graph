@@ -62,7 +62,7 @@ const ApexChart = () => {
 
   return (
     <div>
-      <div id="chart">
+      <div id="chart" className='chart' style={{background:"black"}}>
         <ReactApexChart options={options} series={series} type="line" height={350} />
       </div>
       <div id="html-dist"></div>
